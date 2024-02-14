@@ -9,6 +9,7 @@ Accede al repositorio de GitHub: https://github.com/jhonattanbulls/boomsClean.gi
 Haz clic en el botón "Clone or download".
 Selecciona "Download ZIP".
 Descomprime el archivo ZIP en una carpeta de tu computadora.
+
 2. Configuración del archivo .env
 
 Copia el archivo .env.example a .env y modifica las variables según tu configuración:
@@ -20,14 +21,17 @@ DB_PORT: El puerto de la base de datos.
 DB_DATABASE: El nombre de la base de datos.
 DB_USERNAME: El usuario de la base de datos.
 DB_PASSWORD: La contraseña de la base de datos.
+
 3. Instalar las dependencias
 
 Abre la terminal y navega a la carpeta del proyecto.
 Ejecuta el siguiente comando: composer install
+
 4. Ejecutar las migraciones y las semillas
 
 Ejecuta las migraciones: php artisan migrate
 Ejecuta las semillas: php artisan db:seed
+
 5. Levantar el servidor
 
 Inicia el servidor de desarrollo: php artisan serve
